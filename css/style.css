@@ -1,0 +1,158 @@
+body{
+    margin: auto;
+}
+.container{
+    width: 1170px;
+    margin: auto;}
+
+*{box-sizing: border-box;}
+
+p{color: #777777;line-height: 22.8px;letter-spacing: 1px;font-family: 'Roboto', sans-serif;}
+h2{color: #383838;}
+span{display: block;}
+a{text-decoration: none;color: #383838;}
+a:hover{color: #30B576;}
+button{
+    background:none;
+    border: 1px solid  #777777 ;
+    display:block;
+    color:  #777777 ;
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    margin: 30px 0px 30px 250px;
+    cursor: pointer;
+}
+button:hover{background-color: #888888;}
+
+.cl{clear: both;}
+
+/* *************** */
+
+.slider{
+    background-image:url("../images/legion-blog.jpg");
+    background-size: cover;
+    height: 600px;
+    margin-top: -20px;
+}
+.slider .sl-d{
+    padding-top:150px ;
+    text-align: center;
+}
+.slider .sl-d h2{font-size: 60px;letter-spacing: 10px;}
+.slider .sl-d p{font-size: 20px;}
+
+.slider .sl-d .navbar{
+    background-color: rgba(186, 186, 189, 0.5);margin-top: 209px;
+    height: 50px;
+}
+.slider .sl-d .navbar ul{
+    list-style: none;  padding-top:6px; 
+}
+.slider .sl-d .navbar ul li{
+    display: inline;
+    font-size: 35px; 
+    padding-right:75px;    
+}
+/* *************************************** */
+
+.aboutUs{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutUs .info{
+    width: 60%;
+    float: left;
+}
+.aboutUs .info2{
+    width: 40%;
+    float: left;
+}
+.aboutUs .info1 .icon{
+    float: left;
+    width: 10%;
+    margin-left: -71px;
+    margin-top: 20px;
+    color: rgba(141, 89, 71, 0.5);
+}
+
+.aboutUs .info2 span{margin: 20px 0px 20px 0px;}
+
+/* ******************* */
+
+.details{
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+.details .details-1{
+    float: left;
+    width: 45%;
+    background-color: #F2F2F2;
+}
+
+.details .details-2{
+    float: left;
+    width:45%;
+    background-color: #F2F2F2;
+    margin-left: 95px;
+}
+
+.details img{
+    height: 241px;
+    width: 100%;
+}
+.details .text{margin: 50px;}
+
+/* ******************** */
+
+.skills{margin-top: 50px;}
+
+.skills .skills-1{
+    width: 20%;
+    float: left;
+}
+.skills .skills-2{
+    width: 75%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.skills .skills-2 .items{
+    background-color: #F2F2F2;
+    margin-bottom: 30px;
+    height: 181px;
+}
+
+.skills .skills-1 img{width: 100%; height: 600px;}
+.skills .skills-2 img{float: left; width: 270px; height: 219;}
+
+.skills .skills-2 .items .text{padding-top: 15px; padding-left: 305px;}
+
+/* *************************** */
+
+input,textarea{display: block; width: 90%; margin-bottom: 50px; height: 50px; padding-left: 8px; font-size: 20px;border: 1px solid #b4b2b2;}
+
+textarea{height: 200px;}
+
+.contactUs .form button{margin-left: 348px;}
+
+.contactUs .form{width: 50%; float: left; margin-top: 35px;}
+
+.contactUs .contact{width: 50%; float: left;}
+
+/* ******************** */
+
+.fotter{text-align: center;background-color:  rgba(186, 186, 189, 0.5);height: 65px; color: #383838;}
+
+.fotter span{font-size: 20px;}
+
+.fotter ul{
+    list-style: none;
+    margin-left: -25px;
+    cursor: pointer;    
+}
+
+.fotter ul li{
+    display: inline;
+    margin-right: 5px;
+}
